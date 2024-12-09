@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LCD2/4. Linear Control System Design/Observer.md",
+                "file": "LCD2/5. Optimal Control/Designing LQR.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Observer"
+              "title": "Designing LQR"
             }
           }
         ]
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "LCD2/4. Linear Control System Design/Observer.md",
+                "file": "LCD2/5. Optimal Control/Designing LQR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Observer"
+              "title": "Backlinks for Designing LQR"
             }
           },
           {
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "LCD2/4. Linear Control System Design/Observer.md",
+                "file": "LCD2/5. Optimal Control/Designing LQR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Observer"
+              "title": "Outgoing links from Designing LQR"
             }
           },
           {
@@ -139,18 +139,28 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "LCD2/4. Linear Control System Design/Observer.md"
+                "file": "LCD2/5. Optimal Control/Designing LQR.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Observer"
+              "title": "Outline of Designing LQR"
+            }
+          },
+          {
+            "id": "8c11f93b7e802fd5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -159,14 +169,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "8ffbc2371384b8c6",
   "lastOpenFiles": [
+    "LCD2/4. Linear Control System Design/Observer.md",
+    "LCD2/4. Linear Control System Design/Equilibrium points.md",
+    "LCD2/5. Optimal Control/Designing LQR.md",
     "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
     "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md",
-    "LCD2/Exam structure.md",
-    "LCD2/4. Linear Control System Design/Observer.md"
+    "LCD2/Exam structure.md"
   ]
 }
