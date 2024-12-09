@@ -41,3 +41,4 @@ else
 	disp('System is NOT observable!');
 end
 ```
+If observable, design [[Observer|observer]].
