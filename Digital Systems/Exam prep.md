@@ -56,3 +56,7 @@ $T=\frac{1}{15\ ns}$
 
 ## Problem 4
 ### Q 4.1
+
+## Skew questions
+$t_{hold}\le t_{cQ,\ contamination} + t_{cl,\ contamination} - 2\cdot |skew|$
+$T_{clk}\ge t_{setup} + t_{cQ,\ propogation} + t_{cl,\ propogation} + 2\cdot |skew|$
