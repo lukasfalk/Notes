@@ -31,7 +31,7 @@ Acc = P^(-1)*A*P
 ### Observability
 Observability Theorem OC2:
 ```MATLAB
-Mo = obsv(A,C)
+Mo = obsv(A,C);
 
 % Test if the observability matrix has full column rank,
 % and if the system is therefore observable.
