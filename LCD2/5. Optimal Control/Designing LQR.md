@@ -67,4 +67,3 @@ lambda_cl_ct = 1/Ts.*log(lambda_cl_dt)
 N = inv(C*inv(eye(4)-(F-G*K_opt))*G);
 sys_cl_dt = ss(F-G*K_opt,G*N,C,D,Ts); % ver2: u = -K_LQR*x + Nr
 ```
-## New section
