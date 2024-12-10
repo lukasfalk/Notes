@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LCD2/5. Optimal Control/Designing LQR.md",
+                "file": "LCD2/Exam structure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Designing LQR"
+              "title": "Exam structure"
             }
           }
         ]
@@ -171,15 +171,21 @@
   },
   "active": "8ffbc2371384b8c6",
   "lastOpenFiles": [
-    "LCD2/4. Linear Control System Design/Equilibrium points.md",
-    "LCD2/4. Linear Control System Design/Observer.md",
-    "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
     "LCD2/5. Optimal Control/Designing LQR.md",
-    "README.md",
-    "LCD2/Images/Pasted image 20241101114200.png",
-    "LCD2/Images",
-    "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
+    "LCD2/3. Analysis of State Space Models/Stability.md",
+    "LCD2/Exam structure.md",
+    "LCD2/2. State Space Modelling of Physical Systems/Stationary Point & Linearization.md",
     "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md",
-    "LCD2/Exam structure.md"
+    "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
+    "README.md",
+    "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
+    "LCD2/3. Analysis of State Space Models/Transfer Functions.md",
+    "LCD2/3. Analysis of State Space Models/Frequency Properties.md",
+    "Digital Systems/Exam prep.md",
+    "Controllability.md",
+    "LCD2/4. Linear Control System Design/Observer.md",
+    "LCD2/4. Linear Control System Design/Equilibrium points.md",
+    "LCD2/Images/Pasted image 20241101114200.png",
+    "LCD2/Images"
   ]
 }

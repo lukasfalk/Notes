@@ -3,7 +3,7 @@
 If a system is controllable, all the the columns of controllability matrix $Mc$ is linearly independent. If they are linearly independent the inverse of $P$ exists.
 Controllability Theorem CC2:
 ```MATLAB
-Mc = ctrb(A,B)
+Mc = ctrb(A,B);
 
 % Test if the controlabillity matrix has at least as many
 % linearly independant columns as the number of states in the system:

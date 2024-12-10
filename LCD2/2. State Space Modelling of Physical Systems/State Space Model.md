@@ -17,3 +17,8 @@ $$\textbf{y}(k) = \textbf{Cx}(k) + \textbf{Du}(k)$$
 Or even:
 $$\textbf{x}_{(k+1)} = \textbf{Fx}_k + \textbf{Gu}_k,$$
 $$\textbf{y}_k = \textbf{Cx}_k + \textbf{Du}_k$$
+### Matlab
+```matlab
+Ts = 0.1;
+sys = ss(A,B,C,D,Ts)
+```

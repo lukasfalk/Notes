@@ -1,9 +1,39 @@
-## Set-point tracking
+## Discrete time
+### Sampling time
+```maltab
+% Sampling time
+T_sett = 25; % selected settling time [s]
+tau_sett = T_sett/5; % slowest time constant of closed loop system [s]
+tau_ol = 1./abs(lambda_ol(abs(lambda_ol)>0));
+Ts_max = min([tau_sett min(tau_ol)]./10) % maximum sampling time [s]
+```
+### Controller
+```matlab
+Ts = Ts_max; % 10x smaller than settling time req
+[F,G] = c2d(A,B,Ts)
+```
+Q matrix is the weights for the requirements of the controller. For instance max deviation of angles or settling time deviation in percentages:
+```maltab
+Q = diag([1/(25^2) 1/(0.05^2)])
+```
+Now for finding the gain matrix, solution of riccati equation and eigenvaluies:
+```matlab
+R = 50;
+[K_opt,S,lambda_cl_dt] = dlqr(F,G,Q*Ts,R*Ts);
+```
+Checking stability for Z-domain and complex plane:
+```matlab
+lambda_cl_dt = abs(lambda_cl_dt) % discrete time / Z-domain
+lambda_cl_ct = 1/Ts.*log(lambda_cl_dt) % continous time / complex plane
+```
+If $abs(\texttt{lambda\_cl\_dt})<1$ => system is stable
+For $\texttt{lambda\_cl\_ct}$ see section on [[Stability|stability]].
+### Set-point tracking
 The term $N$ is a pre-compensator gain that adjusts the control input so the system can track a reference input correctly.
 ``` matlab
 N = inv(C * inv(eye(4) - (F - G * K_opt)) * G);
 ```
-### Derivation of $N$
+#### Derivation of $N$
 In an **LQR (Linear Quadratic Regulator)** design, the goal is to regulate the system to the origin using a state-feedback control law of the form:
 $$
 u(k) = -K x(k)
@@ -20,7 +50,7 @@ $$
 u(k) = -K x(k) + N r
 $$
 where $N$ is the **pre-compensator gain**.
-#### Steady-State Condition for Reference Tracking
+##### Steady-State Condition for Reference Tracking
 To determine $N$, we need to ensure that the system output $y(k)$ tracks the reference $r$ at steady state. The system dynamics are given by:
 $$
 x(k+1) = F x(k) + G u(k)
@@ -32,7 +62,7 @@ $$Rearranging:
 $$
 (I - F + G K) x_{ss} = G N r
 $$
-##### Ensuring the Output Tracks the Reference
+###### Ensuring the Output Tracks the Reference
 We want the output $y(k)$ to track the reference $r$. Assume the output equation is:
 $$
 y(k) = C x(k)
@@ -52,7 +82,8 @@ $$
 Solving for $N$:
 $$
 N = \left( C (I - F + G K)^{-1} G \right)^{-1}
-$$#### Final Control Law
+$$
+##### Final Control Law
 
 The modified control law for set-point tracking becomes:
 $$
