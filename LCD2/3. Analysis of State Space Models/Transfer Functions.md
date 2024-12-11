@@ -1,5 +1,5 @@
 The poles/eigenvalues, $p_i$ can be real or complex. If real, the system will have a time constant :$$\tau_i=-\frac{1}{p_i}$$
-## SS to TF
+## [[State Space Model|SS]] to TF
 ``` matlab
 [num, den] = ss2tf(A,B,C,D) % numerator and denumenator from SS model
 G = minreal(tf(num, den)) % minimum terms of TF
@@ -18,3 +18,4 @@ function eigenmode = eigmode(A,r,t)
 	end
 end
 ```
+More on frequency properties in [[Frequency Properties]].

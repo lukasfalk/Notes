@@ -1,4 +1,4 @@
-Full-state feedback is a controller design regarding pole placements.
+Full-state feedback is a controller design regarding pole placements. This is also known as the eigenstructure assignment.
 ## Pole placement or LQR?
 ### Full-state feedback
 Pick full-state feedback if:

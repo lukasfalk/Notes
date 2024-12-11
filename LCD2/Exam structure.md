@@ -1,3 +1,4 @@
+READ THE FULL PROBLEM DESCRIPTION, YOU MORON
 # Numerical Exercise
 1. [[Stationary Point & Linearization|Point of stationarity and linearization]] ($\texttt{trim()}, \texttt{linmod()}$)
 2. Internal and external [[Stability|stability]] ( $\texttt{eig()}, \texttt{poles()}$ )
@@ -26,4 +27,5 @@ Choose yourself from here. Do 3 & 4 or 5 & 6. Not connected.
    -> Repeat verification
 
 Hand-ins:
-Live script and simulink. Should be able to run seemingly
+Live script and simulink.
+Should be able to run seemingly
