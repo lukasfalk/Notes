@@ -1,3 +1,4 @@
+For LQR vs pole placement, see [[Full-state Feedback#Pole placement or LQR?|Pole placement or LQR?]].
 ## Discrete time
 ### Sampling time
 ```maltab
