@@ -111,7 +111,7 @@ t = 0:Ts:10;  % Simulation time
 u = randn(size(t));  % Simulated input (process noise)
 
 % Simulate system output with noise
-y = lsim(sys, u, t) + sqrt(V2d) * randn(length(t), size(C_KF, 1));
+y = lsim(sys, [u;u;u;u], t) + sqrt(V2d) * randn(length(t), size(C_KF, 1));
 
 % Estimate states using the Kalman filter
 x_est = lsim(kest, y, t);
@@ -125,3 +125,4 @@ title('State Estimation using Kalman Filter');
 legend('State 1', 'State 2', 'State 3', 'State 4');
 
 ```
+$\texttt{[u;u;u;u]}$ because the dimensions must match the $n$-number of input channels. In the example $\texttt{sys.B = eye(4)}$, so we need a 4-column $\texttt{u}$.
