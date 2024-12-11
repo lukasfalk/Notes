@@ -11,10 +11,14 @@
             "id": "68a99f3a35f84dcf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "LCD2/7. Optimal Observers - Kalman Filters/Discrete Kalman Filter.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Discrete Kalman Filter"
             }
           }
         ]
@@ -171,13 +175,16 @@
   },
   "active": "68a99f3a35f84dcf",
   "lastOpenFiles": [
+    "LCD2/5. Optimal Control/Designing LQR.md",
+    "LCD2/7. Optimal Observers - Kalman Filters/Discrete Kalman Filter.md",
+    "LCD2/Exam structure.md",
+    "LCD2/4. Linear Control System Design/Full-state Feedback.md",
+    "LCD2/7. Optimal Observers - Kalman Filters",
+    "LCD2/6. Noise in Dynamic Systems",
     "Digital Systems/Exam prep.md",
     "LCD2/3. Analysis of State Space Models/Transfer Functions.md",
     "LCD2/3. Analysis of State Space Models/Frequency Properties.md",
     "LCD2/4. Linear Control System Design/Equilibrium points.md",
-    "LCD2/Exam structure.md",
-    "LCD2/4. Linear Control System Design/Full-state Feedback.md",
-    "LCD2/5. Optimal Control/Designing LQR.md",
     "conflict-files-obsidian-git.md",
     "LCD2/4. Linear Control System Design/Observer.md",
     "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",

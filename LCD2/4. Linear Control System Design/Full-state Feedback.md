@@ -47,3 +47,6 @@ Use LQR when:
 - You want a systematic approach to optimal control design.
 - The system is complex or high-order.
 - Robustness to disturbances or model uncertainties is important.
+
+## Matlab
+$\texttt{place()}$

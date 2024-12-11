@@ -10,15 +10,15 @@ Choose yourself from here. Do 3 & 4 or 5 & 6. Not connected.
    - [[Discretization|Discretize system]](sampling time Ts, $\texttt{c2d()}$)
    - Architecture
    - [[Designing LQR|LQR]] or arbitrary eigenstructure assignment ([[Full-state Feedback|full-state feedback]])
-1. Implementation of controller
+4. Implementation of controller
    - Closed loop linear model (livescript)
    - Closed loop nonlinear model (simulink)
-2. Kalman filtering
+5. Kalman filtering
    - Address architecture of kalman filter. Adjust and/or expand model to account for demands.
    - [[Controllability and Observability#Observability|Observability]] analysis (observability matrix)
    - Present $V_1, V_2$
    - Design kalman filter (always discrete time)
-3. Implementation and verification of kalman filter
+6. Implementation and verification of kalman filter
    - Implementation on design model (linear)
    -> Verification: { Plotting of state estimates vs the true values of the states,
 				Comparison of the numerical estimation  error covariances vs the theoretical one,
