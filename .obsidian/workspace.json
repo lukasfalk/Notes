@@ -11,12 +11,14 @@
             "id": "68a99f3a35f84dcf",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png"
+                "file": "Robust and Fault-Tolerant/Structural analysis.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250212190754"
+              "icon": "lucide-file",
+              "title": "Structural analysis"
             }
           }
         ]
@@ -174,11 +176,12 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "38575c6e11768286",
+  "active": "8c11f93b7e802fd5",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-02-10 11.08.08.excalidraw.md",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png",
     "Robust and Fault-Tolerant/Structural analysis.md",
     "Robust and Fault-Tolerant/Images",
-    "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212190742.png",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212190728.png",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212184209.png",
@@ -191,7 +194,6 @@
     "Untitled.md",
     "Robust and Fault-Tolerant",
     "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
-    "Excalidraw/Drawing 2025-02-10 11.08.08.excalidraw.md",
     "Excalidraw.md",
     "Excalidraw",
     "Untitled Kanban.md",

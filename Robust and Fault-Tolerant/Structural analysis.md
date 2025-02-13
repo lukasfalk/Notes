@@ -84,3 +84,5 @@ constraints $\mathcal{C}$.
 	END 1: A weak vertex $\mathcal{C}$ has been labelled. Then an $\mathcal{M}$-augmenting path has been found, and it can be constructed by working backwards through the labels until the vertex of $\mathcal{Z}$ which is labelled by a \*. Transferring this path gives an extended matching and the algorithm is repeated by going back to Step 2.
 	END 2: It is not possible to label more vertices and END 1 has not occured. Then $\mathcal{M}$ is a maximum matching.
 	**Result:** A maximum matching.
+## 5.6 Structural Diagnosability and Isolability
+A system is said to be structurally diagnosable or monitorable if it is possible to test whether the system constraints are satisfied or not.
