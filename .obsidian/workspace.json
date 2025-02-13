@@ -11,10 +11,14 @@
             "id": "68a99f3a35f84dcf",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Robust and Fault-Tolerant/Structural analysis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Structural analysis"
             }
           }
         ]
@@ -36,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -48,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Matching",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -167,13 +172,31 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
   "active": "68a99f3a35f84dcf",
   "lastOpenFiles": [
-    "LCD2/7. Optimal Observers - Kalman Filters/Discrete Kalman Filter.md",
+    "Pasted image 20250212190754.png",
+    "Pasted image 20250212190742.png",
+    "Pasted image 20250212190728.png",
+    "Pasted image 20250212184209.png",
+    "Pasted image 20250212183944.png",
+    "Pasted image 20250212183934.png",
+    "Pasted image 20250212183625.png",
+    "Pasted image 20250212183155.png",
+    "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md",
+    "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
+    "Robust and Fault-Tolerant/Structural analysis.md",
+    "Untitled.md",
+    "Robust and Fault-Tolerant",
+    "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
+    "Excalidraw/Drawing 2025-02-10 11.08.08.excalidraw.md",
+    "Excalidraw.md",
+    "Excalidraw",
     "Untitled Kanban.md",
+    "LCD2/7. Optimal Observers - Kalman Filters/Discrete Kalman Filter.md",
     "Robotics",
     "LCD2/5. Optimal Control/Designing LQR.md",
     "LCD2/Exam structure.md",
@@ -186,7 +209,6 @@
     "LCD2/4. Linear Control System Design/Equilibrium points.md",
     "conflict-files-obsidian-git.md",
     "LCD2/4. Linear Control System Design/Observer.md",
-    "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
     "LCD2/3. Analysis of State Space Models/Stability.md",
     "LCD2/2. State Space Modelling of Physical Systems/Stationary Point & Linearization.md",
     "Digital Systems/pics/Synthesised Circuit.png",
@@ -195,9 +217,6 @@
     "Digital Systems/pics",
     "Digital Systems",
     "README.md",
-    "LCD2/Images/Pasted image 20241101114200.png",
-    "LCD2/Images",
-    "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
-    "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md"
+    "LCD2/Images"
   ]
 }
