@@ -11,14 +11,12 @@
             "id": "68a99f3a35f84dcf",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Robust and Fault-Tolerant/Structural analysis.md",
-                "mode": "source",
-                "source": false
+                "file": "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png"
               },
-              "icon": "lucide-file",
-              "title": "Structural analysis"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250212190754"
             }
           }
         ]
@@ -176,19 +174,20 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "68a99f3a35f84dcf",
+  "active": "38575c6e11768286",
   "lastOpenFiles": [
-    "Pasted image 20250212190754.png",
-    "Pasted image 20250212190742.png",
-    "Pasted image 20250212190728.png",
-    "Pasted image 20250212184209.png",
-    "Pasted image 20250212183944.png",
-    "Pasted image 20250212183934.png",
-    "Pasted image 20250212183625.png",
-    "Pasted image 20250212183155.png",
+    "Robust and Fault-Tolerant/Structural analysis.md",
+    "Robust and Fault-Tolerant/Images",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212190742.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212190728.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212184209.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212183944.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212183934.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212183625.png",
+    "Robust and Fault-Tolerant/Images/Pasted image 20250212183155.png",
     "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md",
     "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
-    "Robust and Fault-Tolerant/Structural analysis.md",
     "Untitled.md",
     "Robust and Fault-Tolerant",
     "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
@@ -213,7 +212,6 @@
     "LCD2/2. State Space Modelling of Physical Systems/Stationary Point & Linearization.md",
     "Digital Systems/pics/Synthesised Circuit.png",
     "Digital Systems/pics/mealy vs moore.png",
-    "Digital Systems/pics/3LUT.png",
     "Digital Systems/pics",
     "Digital Systems",
     "README.md",
