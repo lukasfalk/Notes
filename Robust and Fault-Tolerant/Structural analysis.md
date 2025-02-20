@@ -30,6 +30,10 @@ c_4 : \dot x_2 = bx_1 + cx_2 + du
 $$
 ![[Pasted image 20250212183155.png]]
 ![[Pasted image 20250212183625.png]]
+Constraints are just signals, with each signal being the previous signal(s) with their changes. $c_1, c_2, \dotsc, c_n$
+Measurements are just the signals we're probing $m_1, m_2, \dotsc, m_n$
+Differentiations are just the the diffs (integrators in simulink) $d_1, d_2, \dotsc, d_n$
+Incidence matrices only inlcudes known and unknown variables, not coefficients.
 ## 5.3 Matching in Bipartite Graphs
 $\mathcal{K}$ = known variables
 $\mathcal{X}$ = unknown variables
