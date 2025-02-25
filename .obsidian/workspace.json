@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robust and Fault-Tolerant/Structural analysis.md",
+                "file": "Novo/TwinCAT 3/Sample.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Structural analysis"
+              "title": "Sample"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ed482852944c6e84",
@@ -178,9 +179,14 @@
   },
   "active": "68a99f3a35f84dcf",
   "lastOpenFiles": [
+    "Robust and Fault-Tolerant/Structural analysis.md",
+    "Novo/TwinCAT 3/Sample.md",
+    "Novo/TwinCAT 3",
+    "Novo/Untitled.md",
+    "Untitled.md",
+    "Novo",
     "Excalidraw/Drawing 2025-02-10 11.08.08.excalidraw.md",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212190754.png",
-    "Robust and Fault-Tolerant/Structural analysis.md",
     "Robust and Fault-Tolerant/Images",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212190742.png",
     "Robust and Fault-Tolerant/Images/Pasted image 20250212190728.png",
@@ -191,7 +197,6 @@
     "Robust and Fault-Tolerant/Images/Pasted image 20250212183155.png",
     "LCD2/2. State Space Modelling of Physical Systems/State Space Model.md",
     "LCD2/2. State Space Modelling of Physical Systems/Discretization.md",
-    "Untitled.md",
     "Robust and Fault-Tolerant",
     "LCD2/3. Analysis of State Space Models/Controllability and Observability.md",
     "Excalidraw.md",
@@ -216,7 +221,6 @@
     "Digital Systems/pics/mealy vs moore.png",
     "Digital Systems/pics",
     "Digital Systems",
-    "README.md",
-    "LCD2/Images"
+    "README.md"
   ]
 }
